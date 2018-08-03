@@ -1,4 +1,4 @@
-import counter from '../src/counter'
+import counter from './src/counter'
 import onWindowScroll from './src/onWindowScroll'
 import onClassChange from './src/onClassChange'
 
