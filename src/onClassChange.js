@@ -1,7 +1,7 @@
 import handleCountUp from './handleCounter'
 
 export default ({ once, watchedElId, expectedClass, el, endValue }) => {
-  const watchedEl = document.getElementById(watchedElId)
+  const watchedEl = watchedElId ? document.getElementById(watchedElId) : el
 
   const interval = setInterval(() => {
     const classList = watchedEl.className.split(' ')
