@@ -1,6 +1,6 @@
 {
   "name": "vue-countup-directive",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Vue Directive that creates a countup animation",
   "main": "index.js",
   "scripts": {
