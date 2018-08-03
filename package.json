@@ -1,0 +1,30 @@
+{
+  "name": "vue-countup-directive",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathvaleriano/vue-countup-directive.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-directive",
+    "countUp",
+    "countUp.js",
+    "countUp-directive",
+    "vue-countup-directive"
+  ],
+  "author": "https://github.com/mathvaleriano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathvaleriano/vue-countup-directive/issues"
+  },
+  "homepage": "https://github.com/mathvaleriano/vue-countup-directive#readme",
+  "dependencies": {
+    "countup.js": "^1.9.3"
+  }
+}
