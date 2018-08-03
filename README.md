@@ -1,4 +1,5 @@
 # vue-countup-directive
+[NPM](https://www.npmjs.com/package/vue-countup-directive)
 
 Thanks [@inorganik](https://github.com/inorganik) for create [countUp.js](http://inorganik.github.io/countUp.js/)
 
