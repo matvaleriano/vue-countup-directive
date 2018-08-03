@@ -1,6 +1,6 @@
 import handleCountUp from './handleCounter'
 
-export default ({ once, watchedElId, expectedClass, el, endValue }) => {
+export default ({ once, watchedElId, expectedClass, el, endValue, startValue, options }) => {
   const watchedEl = watchedElId ? document.getElementById(watchedElId) : el
 
   const interval = setInterval(() => {
