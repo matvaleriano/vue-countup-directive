@@ -98,3 +98,10 @@ With decimals
 <span v-countUp:onWindowScroll="{ startValue: 0.35, endValue: 120.95, options: { duration: 1, decimals: 2 } }">
 ```
 
+## No Arg
+Start a countUp animation immediately
+
+```
+<span v-countUp="{ startValue: 0.35, endValue: 120.95, options: { duration: 1, decimals: 2 } }">
+```
+
