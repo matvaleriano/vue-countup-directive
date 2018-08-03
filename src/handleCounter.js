@@ -1,5 +1,6 @@
+import countUp from './counter'
 
-export default ({ condition, startValue, endValue, el, once, options }) => {
+export default ({ condition, startValue = 0, endValue, el, once, options }) => {
   const innerTextIsStartValue = el.innerText === startValue.toString()
   const innerTextIsEndValue = el.innerText === endValue.toString()
 
