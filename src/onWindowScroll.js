@@ -8,11 +8,12 @@ export const getElOffsetY = (el) => {
   return position && !isNaN(position) ? position : null
 }
 
-export default ({ once, startValue, endValue, el, parent, options }) => {
-  const parentPosition = getElOffsetY(parent)
+export default ({ once, startValue, endValue, el, watchedElId, options }) => {
+  const watchedElement = watchedElId ? document.getElementById(watchedElId) : el
+  const watchedElementPosition = getElOffsetY(watchedElement)
 
   window.addEventListener('scroll', function listener() {
-    const condition = window.scrollY >= Math.ceil(parentPosition)
+    const condition = window.scrollY >= Math.ceil(watchedElementPosition)
     handleCountUp({
       condition,
       el,
