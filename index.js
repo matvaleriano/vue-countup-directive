@@ -13,18 +13,15 @@ export default {
     const { once } = modifiers
 
     if (value) {
-      const { startValue, endValue, options } = value
+      const { startValue = 0, endValue, watchedElId, options } = value
       el.innerText = startValue
 
       switch (arg) {
         case LISTENERS.onWindowScroll:
-          const { parentId } = value
-          const parent = document.getElementById(parentId)
-
-          onWindowScroll({ once, el, parent, endValue, options })
+          onWindowScroll({ once, el, watchedElId, endValue, options })
           break
         case LISTENERS.onClassChange:
-          const { watchedElId, expectedClass } = value
+          const { expectedClass } = value
 
           onClassChange({ once, watchedElId, expectedClass, el, endValue, options })
           break
