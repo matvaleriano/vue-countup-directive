@@ -8,7 +8,7 @@ export const getElOffsetY = (el) => {
   return position && !isNaN(position) ? position : null
 }
 
-export default ({ once, startValue, endValue, el, watchedElId, options }) => {
+export default ({ once, startValue = 0, endValue, el, watchedElId, options }) => {
   const watchedElement = watchedElId ? document.getElementById(watchedElId) : el
   const watchedElementPosition = getElOffsetY(watchedElement)
 

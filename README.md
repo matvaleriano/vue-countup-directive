@@ -10,7 +10,7 @@ Thanks [@inorganik](https://github.com/inorganik) for create [countUp.js](http:/
 ##### (directives/countup.js)
 ```
 import Vue from 'vue'
-import options from 'vue-countup-directive
+import options from 'vue-countup-directive'
 
 Vue.directive('countUp', options)
 ```
@@ -19,7 +19,7 @@ Vue.directive('countUp', options)
 ##### (~/plugins/countUp.js)
 ```
 import Vue from 'vue'
-import options from 'vue-countup-directive
+import options from 'vue-countup-directive'
 
 Vue.directive('countUp', options)
 ```
