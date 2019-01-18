@@ -11,8 +11,8 @@ const bindingValuesAreEquals = ({ oldValue, value }) => (
   JSON.stringify(oldValue) === JSON.stringify(value)
 )
 
-const executeCounter = (el, verifyBindingUpdate = false) => ({ arg, value, modifiers = {} }) => {
-  if (verifyBindingUpdate && bindingValuesAreEquals(binding)) {
+const executeCounter = (el, verifyBindingUpdate = false) => ({ arg, value, oldValue, modifiers = {} }) => {
+  if (verifyBindingUpdate && bindingValuesAreEquals({ value, oldvalue })) {
     return
   }
 
