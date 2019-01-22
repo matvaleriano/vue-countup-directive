@@ -1,10 +1,10 @@
 {
   "name": "vue-countup-directive",
-  "version": "1.1.1",
+  "version": "1.2.0-alpha.1",
   "description": "Vue Directive that creates a countup animation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "NODE_ENV=production ./node_modules/.bin/parcel src/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/mathvaleriano/vue-countup-directive#readme",
   "dependencies": {
     "countup.js": "^1.9.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
   }
 }
