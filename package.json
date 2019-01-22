@@ -1,8 +1,8 @@
 {
   "name": "vue-countup-directive",
-  "version": "1.2.0-alpha.1",
+  "version": "1.2.0",
   "description": "Vue Directive that creates a countup animation",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "NODE_ENV=production ./node_modules/.bin/parcel src/index.js"
   },

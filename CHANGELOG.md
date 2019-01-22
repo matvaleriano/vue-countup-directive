@@ -6,3 +6,7 @@
 
 ### v1.1.1
 * Fix bug: binding is not defined
+
+## v1.2
+* Adding build command
+* Minify files
