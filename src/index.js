@@ -1,6 +1,6 @@
-import counter from './src/counter'
-import onWindowScroll from './src/onWindowScroll'
-import onClassChange from './src/onClassChange'
+import counter from './counter'
+import onWindowScroll from './onWindowScroll'
+import onClassChange from './onClassChange'
 
 export const LISTENERS = {
   onWindowScroll: 'onWindowScroll',
