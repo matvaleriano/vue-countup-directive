@@ -12,7 +12,7 @@ const bindingValuesAreEquals = ({ oldValue, value }) => (
 )
 
 const executeCounter = (el, verifyBindingUpdate = false) => ({ arg, value, oldValue, modifiers = {} }) => {
-  if (verifyBindingUpdate && bindingValuesAreEquals({ value, oldvalue })) {
+  if (verifyBindingUpdate && bindingValuesAreEquals({ value, oldValue })) {
     return
   }
 

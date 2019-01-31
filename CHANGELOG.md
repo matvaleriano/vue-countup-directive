@@ -10,3 +10,9 @@
 ## v1.2
 * Adding build command
 * Minify files
+
+### v1.2.1 
+  * fix minify commands
+
+### v1.2.2
+  * fix [#5](https://github.com/mathvaleriano/vue-countup-directive/issues/5) (oldvalue is not defined)
