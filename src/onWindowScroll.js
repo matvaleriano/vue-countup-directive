@@ -12,7 +12,7 @@ export default ({ once, startValue = 0, endValue, el, watchedElId, options }) =>
   const watchedElement = watchedElId ? document.getElementById(watchedElId) : el
   const watchedElementPosition = getElOffsetY(watchedElement)
 
-  window.addEventListener('scroll', function listener() {
+  window.addEventListener('scroll', function listener () {
     const condition = window.scrollY >= Math.ceil(watchedElementPosition)
     handleCountUp({
       condition,
