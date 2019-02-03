@@ -40,7 +40,7 @@ const executeCounter = (el, verifyBindingUpdate = false) => ({ arg, value, oldVa
 }
 
 export default {
-  inserted(el, binding) {
+  inserted (el, binding) {
     executeCounter(el)(binding)
   },
   componentUpdated (el, binding) {
