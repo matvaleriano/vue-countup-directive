@@ -44,6 +44,7 @@ export default {
     executeCounter(el)(binding)
   },
   componentUpdated (el, binding) {
+    binding.value.startValue = binding.oldValue.endValue;
     executeCounter(el, true)(binding)
   }
 }
