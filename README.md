@@ -1,3 +1,6 @@
+## THIS PROJECT IS DEPRECATED
+This project is not maintained anymore.
+
 # vue-countup-directive
 [NPM](https://www.npmjs.com/package/vue-countup-directive)
 
